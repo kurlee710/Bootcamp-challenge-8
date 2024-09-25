@@ -20,6 +20,7 @@ const truck1 = new Truck(
   [],
   10000
 );
+console.log(truck1);
 
 // will use default wheels
 const car1 = new Car(

@@ -76,7 +76,7 @@ class Truck extends Vehicle implements AbleToTow {
     // Call the printDetails method of the parent class, Vehicle
     super.printDetails();
 
-    // Print details of the Truck class
+    // Print details of the Car class
     console.log(`VIN: ${this.vin}`);
     console.log(`Color: ${this.color}`);
     console.log(`Make: ${this.make}`);

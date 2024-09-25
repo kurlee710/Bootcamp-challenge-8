@@ -325,6 +325,8 @@ class Cli {
           choices: [
             "Print details",
             "Start vehicle",
+            "Preform a wheelie",
+            "Tow",
             "Accelerate 5 MPH",
             "Decelerate 5 MPH",
             "Stop vehicle",
