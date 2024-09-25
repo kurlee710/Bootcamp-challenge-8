@@ -15,7 +15,7 @@ class Cli {
   exit: boolean = false;
 
   // TODO: Update the constructor to accept Truck and Motorbike objects as well
-  constructor(vehicles: Car[]) {
+  constructor(vehicles: (Car | Truck | Motorbike)[]) {
     this.vehicles = vehicles;
   }
 
@@ -61,7 +61,7 @@ class Cli {
           name: "vehicleType",
           message: "Select a vehicle type",
           // TODO: Update the choices array to include Truck and Motorbike
-          choices: ["Car"],
+          choices: ["Car", "Trucks", "Motorbike"],
         },
       ])
       .then((answers) => {
